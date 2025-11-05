@@ -64,7 +64,7 @@ print(f"{test_list4} sorted with Destructive Selection Sort: {selection2(test_li
 # Test Prep Q3
 
 def scrabble(word):
-    score = 1
+    score = 0
     for char in word:
         if char in "AEIOULNSTR":
             score += 1
