@@ -56,9 +56,9 @@ test_list3 = test_list[:] # copying a list method 2
 test_list4 = test_list.copy()
 
 print(f"{test_list} sorted with Bubble Sort: {bubble(test_list)}")
-print(f"{test_list2} sorted with Insertion Sort: {i_sort(test_list)}")
-print(f"{test_list3} sorted with Non-destructive Selection Sort: {selection1(test_list)}")
-print(f"{test_list4} sorted with Destructive Selection Sort: {selection2(test_list)}")
+print(f"{test_list2} sorted with Insertion Sort: {i_sort(test_list2)}")
+print(f"{test_list3} sorted with Non-destructive Selection Sort: {selection1(test_list3)}")
+print(f"{test_list4} sorted with Destructive Selection Sort: {selection2(test_list4)}")
 # end of testing sorting functions
 
 # Test Prep Q3
